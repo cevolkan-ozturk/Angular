@@ -48,7 +48,7 @@ label {
 /*CONTAINER*/
 .register_container {
     width: 100%;
-    /* height: 95vh; */
+    height: 95vh;
     display: flex;
     justify-content: center;
     place-items: center;
@@ -67,6 +67,8 @@ label {
     padding: 3rem;
     box-shadow: 13px 13px 18px #41505d,
     -13px -13px 21px white;
+    -webkit-box-shadow: 13px 13px 18px #41505d, -13px -13px 21px white;
+    -moz-box-shadow: 13px 13px 18px #41505d, -13px -13px 21px white;
 }
 
 /* LOGO */
@@ -78,6 +80,9 @@ label {
     margin: auto;
     background-color: cover;
     border-radius: 1.2rem;
+    box-shadow: 6px 6px 9px #425161, -6px -8px 9px white;
+    -webkit-box-shadow: 6px 6px 9px #425161, -6px -8px 9px white;
+    -moz-box-shadow: 6px 6px 9px #425161, -6px -8px 9px white;
 }
 
 /* TITLE */
@@ -96,6 +101,14 @@ label {
     margin-top: 1rem;
 
 
+}
+
+/* ICON */
+.my_icon_class{
+    color: rgb(20, 61, 223);
+    position: absolute;
+    left: 4rem;
+    margin-top: 1rem;    
 }
 
 
@@ -123,6 +136,9 @@ input[type="password"] {
     box-shadow: inset 7px 7px 7px #cbced2,
     inset -7px -7px 7px white;
     border-radius: 3.2rem;
+    box-shadow: inset 7px 7px 7px #cbced2, inset -7px -7px 7px white;
+    -webkit-box-shadow: inset 7px 7px 7px #cbced2, inset -7px -7px 7px white;
+    -moz-box-shadow: inset 7px 7px 7px #cbced2, inset -7px -7px 7px white;
 }
 
 
@@ -154,6 +170,9 @@ input[type="password"]::placeholder {
     -webkit-box-shadow: 7px 7px 7px #bec9d2, -7px -7px 5px white;
     -moz-box-shadow: 7px 7px 7px #bec9d2, -7px -7px 5px white;
     height: 2rem;
+    box-shadow: 7px 7px 7px #bec9d2, -7px -7px 5px white;
+    -webkit-box-shadow: 7px 7px 7px #bec9d2, -7px -7px 5px white;
+    -moz-box-shadow: 7px 7px 7px #bec9d2, -7px -7px 5px white;
     
 }
 
